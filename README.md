@@ -55,14 +55,14 @@ Tape alphabet `{0, 1, B, F, #, _}` over 8 regions of 98 bits each, with boundary
 ## Setup
 
 ```bash
-git clone <repo>
-cd "Honors Contract"
+git clone https://github.com/Akshith-Gandham/Data-Reuploading-MNIST-Classifier-Visualizer
+cd Data-Reuploading-MNIST-Classifier-Visualizer
 
-python -m venv honorsprojectenv
+python -m venv .venv
 # Windows:
-honorsprojectenv\Scripts\activate
+.venv\Scripts\activate
 # macOS/Linux:
-source honorsprojectenv/bin/activate
+source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
